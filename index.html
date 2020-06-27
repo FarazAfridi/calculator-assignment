@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="CalInput">
+        <input id="input" type="text">
+      </div>
+    <div class="btn-div btn-right">
+      <button onclick="power()" class="btn btn-2">x<sup>2</sup></button>
+      <button onclick="removeLastChar()" class="btn btn-2">X</button>
+      </div>
+
+      <div class="btn-div">
+        <button onclick="getValue('1')" class="btn">1</button>
+        <button onclick="getValue('2')" class="btn">2</button>
+        <button onclick="getValue('3')" class="btn">3</button>
+        <button onclick="getValue('+')" class="btn">+</button>
+        </div>
+        <div class="btn-div">
+          <button onclick="getValue('4')" class="btn">4</button>
+          <button onclick="getValue('5')" class="btn">5</button>
+          <button onclick="getValue('6')" class="btn">6</button>
+          <button onclick="getValue('*')" class="btn">*</button>
+          </div>
+          <div class="btn-div">
+            <button onclick="getValue('7')" class="btn">7</button>
+            <button onclick="getValue('8')" class="btn">8</button>
+            <button onclick="getValue('9')" class="btn">9</button>
+            <button onclick="getValue('-')" class="btn">-</button>
+            </div>
+            <div class="btn-div">
+              <button onclick="getValue('0')" class="btn">0</button>
+              <button onclick="clearValue()"  class="btn">C</button>
+              <button onclick="getValue('/')" class="btn">/</button>
+              <button onclick="ValueResult()" class="btn">=</button>
+
+              </div>
+      </div>
+      <script src="index.js" type="text/javascript">
+      </script>
+  </body>
+</html>
